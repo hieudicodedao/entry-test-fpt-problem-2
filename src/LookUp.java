@@ -14,7 +14,7 @@ public class LookUp {
 
     private static final String username = "root";
 
-    private static final String password = "2512hieuA";
+    private static final String password = "";
     private static final  Connections connections = new Connections("jdbc:mysql://localhost:3306/rrs?autoReconnect=true&useSSL=false" , username , password);
 
     private static final SQL sql = new SQL(connections.getConnections());
